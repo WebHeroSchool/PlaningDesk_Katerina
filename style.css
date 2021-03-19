@@ -1,0 +1,56 @@
+.body {
+  margin: 0;
+}
+.wrapper {
+  margin:auto;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .menu {
+  display: inline-block
+}
+.logo {
+  padding: 40px 0;
+  font-family:PT Serif
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+  font-family:Roboto;
+  color: blue;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.main-section {
+  display: flex;
+  justify-content: start;
+}
+.main-content, .image-content {
+  display: inline-block;
+}
+.main-content__title {
+  margin: 0;
+  padding: 206px 0 40px 0;
+  font-family:PT Serif
+}
+.main-content__subtitle {
+  margin: 0;
+  padding: 0 0 40px 0;
+  font-family:Roboto
+}
+.main-content__button {
+  padding: 10px 21px 10px 21px;
+  font-family:Roboto
+}
+.image-content {
+  padding: 133px 0 0 190px;
+  display: flex;
+  align-items: center;
+}
