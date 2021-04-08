@@ -13,8 +13,28 @@
   display: inline-block
 }
 .logo {
+  position: relative;
   padding: 40px 0;
-  font-family:PT Serif
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+}
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width:28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 .menu {
   display: flex;
@@ -38,16 +58,16 @@
 .main-content__title {
   margin: 0;
   padding: 206px 0 40px 0;
-  font-family:PT Serif
+  font-family: pt_serif;
 }
 .main-content__subtitle {
   margin: 0;
   padding: 0 0 40px 0;
-  font-family:Roboto
+  font-family:Roboto;
 }
 .main-content__button {
   padding: 10px 21px 10px 21px;
-  font-family:Roboto
+  font-family:Roboto;
 }
 .image-content {
   padding: 133px 0 0 190px;
