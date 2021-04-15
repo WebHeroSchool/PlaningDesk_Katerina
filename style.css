@@ -102,3 +102,65 @@
   padding: 0 50% 40px 50%;
   background: center no-repeat url(img/point.svg);
 }
+
+@media (max-width: 1366px) {
+  .wrapper {
+    width: 69%;
+  }
+  .header {
+    margin-bottom: 0;
+  }
+  .menu__item {
+    margin-right: 26px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+  .menu__item:last-child {
+    margin-right: 6px;
+  }
+  .main {
+    padding: 105px 50% 125px 0;
+    background: top 90px right no-repeat url(img/p1366.svg);
+  }
+  .main__title {
+    margin: 0 0 38px 0;
+    font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main__subtitle {
+    margin: 0 20% 42px 0;
+    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+  .main__button {
+    font: 14px/16px Roboto, arial, helvetica, sans-serif;
+    padding: 15px 26px 13px 19px;
+  }
+  .point {
+    padding: 0 50% 40px 50%;
+    background: center no-repeat url(img/point.svg);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .header {
+    margin-bottom: 28px;
+  }
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  }
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
